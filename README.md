@@ -1,5 +1,13 @@
 # RESERVATION
 
+## DESCRIPTION
+
+This API accepts two types of payload. Payload saved in Reservation model and Guest model.
+
+Guest data is updated if the guest's email exists on the database.
+
+Reservation data is updated if the reservation's code exists on the database.
+
 ## SETUP
 
 Clone this repository.
@@ -20,7 +28,7 @@ Install ruby gems.
 bundle
 ```
 
-Generate database. If the database exists skip this step.
+Create the database.
 
 ```sh
 bin/rails db:create
